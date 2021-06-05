@@ -1,0 +1,71 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Original Surfer', cursive;
+  font-size: 2em;
+  background-color: #325288;
+}
+
+
+h1{
+  color: purple;
+}
+
+input{
+  border: none;
+  border-bottom: 3px solid red;
+  margin-right: 20px;
+  background-color: #325288;
+  font-family: 'Original Surfer', cursive;
+  font-size: 1.5rem;
+  color: white;
+  outline: none;
+
+}
+img{
+  width: 40%;
+  height: auto;
+}
+
+button{
+  background-color: white;
+  border-radius: 10px;
+  font-family: 'Original Surfer', cursive;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 8px;
+  border: 3px solid #8ab6d6;
+
+}
+button:hover{
+  background-color: red;
+}
+p{
+  font-family: 'Original Surfer', cursive;
+  font-size: 1rem;
+
+}
+
+main{
+  background-color: #8ab6d6;
+  height: 500px;
+  width:500px;
+  margin: 30px auto;
+  border-radius: 10px;
+
+}
+.entercity{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#location{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.temp{
+  text-align: center;
+  margin-top: 80px;
+}

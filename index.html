@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+      <!-- for user to enter city for which she wants the weather condition -->
+      <form class="entercity" action="index.html" method="post">
+        <input id="search-input" type="text" name="" placeholder="Enter City" />
+        <button id="search-button" type="button" name="button">GET TEMPERATURE</button>
+      </form>
+
+      <main id="app-container">
+        <div id="location">
+          <p id="loca">-----</p>
+        </div>
+        <div class="temp">
+          <!-- we give id to image icon as we want it to change for every temperature -->
+          <img id="temp-icon" src="sun.png" alt="">
+          <p><span id="temp-value">----</span>&degc</p>
+          <p id="temp-descr">-------</p>
+        </div>
+      </main>
+      <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
